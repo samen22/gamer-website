@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans';
+}
+
+/* Nav styles start here */
+.nav-container {
+    min-height: 50px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-logo-img {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+.nav-logo-img img {
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.nav-logo-img h1 {
+    font-size: 1.8rem;
+}
+
+.g-text {
+    color: #FF42A5;
+
+}
+
+.nav-item-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-container a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.btn-1 {
+    width: 260px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.fa-youtube {
+    color: #F61C0D;
+}
+
+/* nav styles end here */
+
+/* banner styles start here */
+.banner-container {
+    max-width: 1200px;
+    min-height: 50px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.banner-img-container {
+    margin-left: 300px;
+    width: 60%;
+}
+
+.banner-img-container img {
+    width: 100%;
+}
+
+.banner-title1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-title2 {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text-container {
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.banner-text-container p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-logo {
+    display: flex;
+}
+.btn-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.btn-2 {
+    width: 156px;
+    height: 65px;
+    border: 0;
+    border-radius: 48px;
+    background-color: #F948B2;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+.btn-3{
+    width: 185px;
+    height: 65px;
+    border: 0;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+
+}
+
+
+
+
+/* banner styles ends here */
