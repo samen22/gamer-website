@@ -281,6 +281,7 @@ body {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
+    text-align: center;
 }
 
 .play-img {
@@ -297,5 +298,32 @@ body {
 .rec55{
     width: 80%;
 }
-
 /* Play instantly styles end here */
+
+/* Play online game styles start here */
+.section-container{
+    margin-top: 15%;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.rec67{
+    width: 80%;
+}
+.rec78{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+
+
+
+
+
+/* Play online game styles end here */
