@@ -244,10 +244,12 @@ body {
     text-align: left;
     padding: 5px;
 }
-.item img{
+
+.item img {
     width: 100%;
 }
-.item:hover{
+
+.item:hover {
     cursor: grab;
 }
 
@@ -258,3 +260,42 @@ body {
 }
 
 /* Online games styles end here */
+
+/* Play instantly styles start here */
+.play-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.play-text {
+    color: #534C64;
+    text-align:center;
+    font-size: 18px;;
+    font-weight: 400;
+    /* 166.667% */
+}
+.play-text h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-img {
+    width: 50%;
+    position: relative;
+}
+
+.rec66{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: -20%;
+}
+.rec55{
+    width: 80%;
+}
+
+/* Play instantly styles end here */
